@@ -1,0 +1,88 @@
+.card-container{
+ 
+  margin-top:25px;
+  
+  
+ }
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+ 
+  // margin-left: 60px; 
+  margin-right: 143px;/* gutter size offset */
+  // max-height: 1300px;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  // background: grey;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+  img{ 
+    min-width:100%;
+  }
+  h6 {
+    color:#6c6c6c;
+    font-size: xx-small;
+    font-weight: normal;
+  }
+
+  h3 {
+    font-family: ACaslonPro-Regular;
+    font-weight:normal;
+    // color:blue;
+    
+  }
+  h6{
+    
+    span {
+      text-decoration:underline;
+      text-transform:uppercase;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .my-masonry-grid  {
+    margin-right:35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .my-masonry-grid  {
+    margin-left: 20px;
+    margin-right:90px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .my-masonry-grid  {
+    margin-left: 20px;
+    margin-right:50px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .my-masonry-grid  {
+    margin-left: 40px;
+    margin-right:50px;
+  }
+}
+
+@media only screen and (max-width: 1441px) {
+  .my-masonry-grid  {
+    margin-left: 40px;
+    margin-right:50px;
+  }
+}
+
+
+
+

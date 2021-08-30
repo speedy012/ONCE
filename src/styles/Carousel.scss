@@ -1,0 +1,113 @@
+
+
+
+.carousel {
+  position: relative;
+  z-index:0;
+  
+}
+
+.container {
+  position: relative;
+  display:flex;
+  flex-direction: row;
+}
+
+.caro-image {
+  width: 100%;
+  z-index:1;
+}
+
+.text-body {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  top:168px;
+  // font-family: ACaslonPro-Regular; 
+  
+  
+  margin-left:100px;
+    h2 {
+      font-size: xx-large;
+      font-weight: 100;
+      font-family: Springville-Regular3;
+      margin:0;
+      // height:35px;
+    }
+    h4{
+      font-family: ACaslonPro-Regular;
+      margin-top:10px;
+      margin-bottom:0px;
+      
+    }
+}
+
+.first-sub{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.sec-sub {
+  margin-top: 2px;
+}
+
+
+
+
+@media only screen and (max-width: 440px) {
+  .text-body {
+    top:10px;
+    margin-left:20px;
+    font-size: small;
+    .font-sp{
+      margin-top:10px;
+      font-size: large;
+    }
+    .font-ar{
+      
+      font-size: large;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .text-body {
+    top: 90px;
+    margin-left:70px;
+    font-size: small;
+    .font-sp{
+      font-size: xx-large;
+      font-weight: 100;
+      font-family: Springville-Regular3;
+      margin:0;
+    }
+    .font-ar{
+      
+      font-size: large;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .text-body {
+    top: 135px;
+    margin-left:85px;
+    font-size: normal;
+    .font-sp{
+      font-size: xx-large;
+      font-weight: 100;
+      font-family: Springville-Regular3;
+      margin:0;
+    }
+    .font-ar{
+      
+      font-size: large;
+    }
+  }
+}
+
+

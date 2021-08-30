@@ -1,7 +1,10 @@
+import './index.css';
+import './assests/fonts/ACaslonPro-Regular.otf'
+import './assests/fonts/Springville-Regular3.otf'
+
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
